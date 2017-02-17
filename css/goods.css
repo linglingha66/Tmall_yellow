@@ -1,0 +1,252 @@
+@media screen and (min-width: 320px) and (max-width: 768px){
+	html{width: 100%;height: 100%;}
+	body{margin:0 auto;padding: 0;width: 100%;font-size: 100%;}
+	.hnav{
+		position: fixed;width: 100%;
+		background: -ms-linear-gradient(90deg,#f1214d 0%,#ee3236 50%,#ed441b 100%); 
+		background: -o-linear-gradient(90deg,#f1214d 0%,#ee3236 50%,#ed441b 100%); 
+		background: -moz-linear-gradient(90deg,#f1214d 0%,#ee3236 50%,#ed441b 100%); 
+		background: -webkit-linear-gradient(90deg,#f1214d 0%,#ee3236 50%,#ed441b 100%); 
+		background: linear-gradient(90deg,#f1214d 0%,#ee3236 50%,#ed441b 100%); 
+		padding:30px 0 0 3.733333%;
+		/*padding:33px 0px 0 14px;*/
+		z-index: 2;
+		overflow: hidden;
+	}
+	.hnav nav{margin:0 auto;width:50%;}/*166px/375px*/
+	#head-hd a{display: inline-block;padding:0 6.2% 6% 6.2%;color:#fff;font:normal 1rem "Microsoft SimSun";}/*padding:0 12px 11px 12px;  14px   1rem=14px*/
+	#head-hd .selected{color:#fef03f;border-bottom: 2px solid #fef03f;}
+	.hide{display: none;}
+	.hnav a{display: inline-block;}
+	.icon-l{float: left;width: 20px;height: 20px;background: url(../img/icon/左箭头.png) no-repeat ;background-size: 100%;}/*width: 20px;height: 20px;*/
+	.icon-det{float: right;margin: -0.89955% 6.4% 0 0;width:20px;height: 13.7px;background:url(../img/icon/详情.png) no-repeat;background-size: 100%;}/*margin: -6px 24px 0 0;*/
+	.icon-shop{float: right;margin:-0.89955% 5.33333% 0 0;width:24px;height: 24px;background:url(../img/icon/购物车.png) no-repeat ;background-size: 100%;}/*margin:-6px 20px 0 0;*/
+
+	.blank{width:100%;height:4.1rem;}/*height:62px;或padding:23px 0; 23/375*/
+	.blank-bottom{display:none;width: 100%;height:48px;background-color:#f4f4f4;}/*height: 48px;或padding:16px 0; 16/375 */
+	.banner{position: relative;height: auto;width:100%;}
+	.banner .swipe{overflow: hidden;visibility: hidden;position:relative;}
+	.banner .swipe-wrap{overflow:hidden;position:relative;}
+	.banner .swipe-wrap > div {float: left;width: 100%;position:relative;}
+
+	#position{ position:absolute; bottom:4.8%; right:32%; padding-right:2.1333333%; margin:0; opacity: 0.4; width:100%; filter: alpha(opacity=50);text-align:right;}/*bottom:18px; right:32%; padding-right:8px; */
+	#position li{width:8px;height:8px;margin:0 0.533333%;display:inline-block;-webkit-border-radius:50%;border-radius:50%;background-color:#AFAFAF;}/*width:8px;height:8px;margin:0 2px;*/
+	#position li.cur{background-color:#000000;opacity: 1;}
+	.img-responsive { display: block; max-width: 100%;  height: auto;}
+
+	.tab-con .part1,.tab-con .part2{width:100%;z-index: 2;}
+	.goods1,.goods2-wrap,.goods3-wrap,.goods4-wrap{border-bottom: solid 9px #f4f4f4;}
+	/*.goods1{height:135px;}*/
+	.goods1{padding-top: 10px;}
+	.g1-top{position: relative;}
+	.g1-top h1{padding-left:2.666667%;width:83.2%;word-wrap: break-word;overflow: hidden;-webkit-box-pack: center;
+    			height: 3em;font:bold 1rem/1.35rem "Microsoft SimSun";color: #4a4a4a;}
+	/*.goods1 h1{float:left;width:312px;height:34px;color:#4a4a4a;font:bold 16px/20px "Microsoft SimSun";margin:10px 0 10px 10px;}*/
+	.g1-top a{position:absolute;right:0;top:0;display:inline-block;padding:0 0.53333%;color: #999;font-size: 0.85714286rem;margin-right: 2.666667%;}
+	.g1-share i{display: block;width:1.4286rem;height:1.4286rem;margin-bottom:0.5rem;background: url(../img/icon/分享.png) no-repeat ;background-size:100%;}
+	/*.g1-share i{display: block;margin:0 0 8px 5px;width:16px;height:16px;background: url(../img/icon/分享.png) no-repeat ;background-size:100%;}*/
+	/*.g1-share{display:block;float:right;height:40px;width:24px;margin:10px 17px 0 0;text-align:center;color: #999;font:12px/20px "Microsoft SimSun";}*/
+/*	.g1-hot{position:relative;float:left;margin:0 0 14px 10px;width:114px;height:18px;color: #dc2222;font-size:22px;line-height: 30px;}*/
+	.g1-hot{margin:0 0 3.73333% 2.66667%;color: #dc2222;font-size:1.57rem;}
+	/*.g1-hot span{position:absolute;bottom:-4px;right:0;display:inline-block;height:12px;width:48px;border:solid 1px #dc2222;-o-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;line-height:14px;font-size:10px;}*/
+	.g1-hot span{display:inline-block;transform: scale(0.9);padding:0 2px;border:solid 1px #dc2222;-o-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;line-height:1rem;font-size:0.7143rem;}
+	/*.g1-hot i{display: inline-block;width:14px;height:14px;background: url(../img/icon/钱.png) no-repeat ;background-size:100%;}*/
+	.g1-hot i{display: inline-block;width:1rem;height:1rem;background: url(../img/icon/钱.png) no-repeat ;background-size:100%;}
+	.g1-price {margin:-2.666667% 0 0 2.666667%;color: #999;}
+	.g1-price .ui-label{display: inline-block;vertical-align: middle;font-size:0.857rem;line-height: 0.857rem; height: 0.857rem;}
+	.g1-price del{vertical-align: middle; font-weight: lighter;font-size: 1rem;text-decoration: line-through;}
+	.g1-flex{padding: 0 2.666667%;text-align: left;height: 2.143rem;line-height: 2.143rem;color: #999;font-size: 0.857rem;}
+	.mui-flex{display:-webkit-flex;display:flex;font-weight: lighter;flex-wrap: wrap;}
+	.cell{-webkit-box-flex: 1;box-flex: 1;-webkit-flex: 1;flex: 1;-webkit-flex-basis: 0;flex-basis: 0;max-width: 100%;display: block;position: relative;}
+	.g1-flex .postage{text-align: left;}
+	.g1-flex .sales{text-align: center;}
+	.g1-flex .delivery{text-align: right;}
+
+	
+	.goods2,.goods3,.goods4{width:94.93333%;margin:0 auto;}/*width: 356px;*/
+	.goods2-f,.goods2-s{border-bottom: solid 2px #f0f0f0;}
+	.goods2-f{height: 58px;position: relative;}
+	.goods2-s{height: 65px;position: relative;}
+	.goods2-t{height: 42px;position: relative;}
+	.goods2-f div{position:absolute;color: #393939;font-size: 0.857rem;}/*font-size: 12px;*/
+	.goods2-f1{top:10px;left:0;}
+	.goods2-f2{bottom:10px;left:0;}
+	.goods2-f div span{display:inline-block;transform: scale(0.9);font:0.7143rem/0.7143rem "Microsoft SimSun";color: #dc2324;border: solid 1px #dc2324;-o-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px; padding: 0.5px 2px;margin-right: -4px;}
+	.goods2-f1 span:nth-child(1),.goods2-f2 span:nth-child(1){border-right-style:dotted;}
+	.goods2-f1 span:nth-child(2),.goods2-f2 span:nth-child(2){border-left-style:dotted;}
+	.goods2-f3{position:absolute;right:0;top:50%;background-color:#fff;margin-top:-2.933333%;display:block;color: #999999;font-size:0.857rem;border:solid 1px #d1d1d1;-o-border-radius: 3px;-webkit-border-radius: 3px;border-radius:3px;padding:3px 5px; }/*margin-top:-11px;*/
+	.goods2-fbox{display: none;position:fixed;height: 100%;width:100%;z-index:3;}
+	.goods2-fbg{height:37.631184%;width: 100%;background-color: rgba(128,132,124,0.4);}
+	.goods2-fbox-wrap{position:relative;height: 62.368816%;width:100%;background-color: white;}/*height:251px;*/
+	.goods2-fbox-head{height: 45px;width: 100%;}
+	.goods2-fbox-txt1{display: inline-block;color:#000;font:1.143rem/3.2143rem "Microsoft Yahei";margin-left: 39.2%; }/*font:16px/45px  margin-left: 147px;*/
+	.goods2-fbox-txt2{float:right;display: inline-block;margin-right:3.46667%;color: #a2a2a2;font: 12px/45px "Microsoft Yahei";}/*margin-right:13px;*/
+	.goods2-fbox-pattern{position:relative;background: url(../img/goods/购物券.png) no-repeat;background-size:100%;width:93.6%;height:30%;margin:0 auto;}/*width:351px;height: 90px;*/
+	.goods2-fbox-txt3{position:absolute;display: block;color: #fcd8d8;font:0.857rem "Microsoft Yahei";top:50%;right:3.733%;}/*top:56px;right:14px;*/
+	.goods2-fbox-bottom{position:absolute;bottom:0;height: 48px;width: 100%;background-color: #dd2727;text-align: center;color:#fff;font:1.143rem/3.43rem "Microsoft Yahei";}
+
+	.goods2-s div{position:absolute;color: #393939;font-size:0.857rem;}
+	.goods2-s1{top:16px;left:0;}
+	.goods2-s2{bottom:14px;left:0;}
+	.goods2-s div span{display:inline-block;transform: scale(0.9);font:0.7143rem/0.7143rem "Microsoft SimSun";color: #dc2324;border: solid 1px #dc2324;-o-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;padding: 0.5px 2px;}
+	.goods2-s3{position:absolute;display: block;width: 12px;height: 2.7px;right:0;top:30px;}
+	.goods2-sbox{display:none;position:fixed;height: 100%;width:100%;z-index:3;}
+	.goods2-sbg{height:37.631184%;width: 100%;background-color: rgba(128,132,124,0.4);}
+	.goods2-sbox-wrap{position:relative;height: 62.368816%;width:100%;background-color: white;}/*height:251px;*/
+	.goods2-sbox1{margin:0 12px;border-bottom:2px solid #f0f0f0;padding: 15px 0;}
+	.goods2-sbox1 div span,.goods2-sbox2 div span{transform: scale(0.9);display: block;border: 1px solid #DD2727;-webkit-border-radius: 2px;border-radius: 2px;padding: 1px 3px;
+    		font-size: 0.857rem;line-height: 1;color: #DD2727;left: -10%;position: relative;}
+	.goods2-sbox1 .goods2-sbtxt,.goods2-sbox2 .goods2-sbtxt{font-size: 1rem;color: #000;line-height:1rem;text-align: left;font-family: "Microsoft SimSun"}
+	.goods2-sbox1 p{font-size:0.857rem;color: #999;line-height:1.143rem;padding-top: 8px;}
+	.goods2-sbox-bottom{position:absolute;bottom:0;height: 48px;width: 100%;background-color: #dd2727;text-align: center;color:#fff;font:1.143rem/3.43rem "Microsoft Yahei";}
+	.goods2-sbox2{margin:0 12px;padding: 15px 0;}
+
+	.goods2-t div{position:absolute;color: #393939;font-size:0.857rem;top:14px;left:0;}
+	.goods2-t1 i{display:inline-block;margin-bottom:2px;width:2px;height:2px;-o-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;background-color: #404040;}
+	.goods2-t2{position:absolute;display: block;width: 12px;height: 2.7px;right:0;top:20px;}
+	.goods2-tbox{display:none;position:fixed;height: 100%;width:100%;z-index:3;}
+	.goods2-tbg{height:37.631184%;width: 100%;background-color: rgba(128,132,124,0.4);}
+	.goods2-tbox-wrap{position:relative;height: 62.368816%;width:100%;background-color: white;}/*height:251px;*/
+	.goods2-tbox-wrap h5{height: 60px;text-align: center;color:#000;font-size:1.143rem;line-height: 60px;font-weight: 400;font-family: "Microsoft SimSun"}
+	.goods2-tbox-wrap dl dt{font-size: 1rem;padding-left: 2.66667%;color: #000;font-family: "Microsoft SimSun";}
+	.goods2-tbox-wrap dl dd{font-size: 0.857rem;padding: 1.333% 2.66667% 2.66667% 11.46667%;color: #999;font-family: "Microsoft SimSun";}
+	.goods2-tbox-con{display:inline-block;width:19px;height:20px;background: url(../img/goods/图标雪碧.png) no-repeat;vertical-align: middle;margin-right: 10px;}
+	.tbcon2{background-position: -19px 0;}
+	.tbcon3{background-position: -38px 0;}
+	.goods2-tbox-bottom{position:absolute;bottom:0;height: 48px;width: 100%;background-color: #dd2727;text-align: center;color:#fff;font:1.143rem/3.43rem "Microsoft Yahei";}
+
+	.goods3-wrap{height:87px;}
+	.goods3{position: relative;}
+	.goods3-1{border-bottom: solid 2px #f0f0f0;}
+	.goods3-1,.goods3-2{color:#373737;font-size: 1rem;padding:12px 0;}
+	.goods3-1 img,.goods3-2 img{display: inline-block;position:absolute;width: 12px;height: 2.7px;right:0;padding:10px 0;}
+	.goods3-fbox{display:none;position:fixed;height: 100%;width:100%;z-index:3;}
+	.goods3-fbg{height:100%;width: 100%;background-color: rgba(128,132,124,0.4);}
+	.goods3-fbox-wrap{position:fixed;bottom:48px;top:30%;width:100%;overflow-y: scroll;background-color: white;}/*height:251px;*/
+	.goods3-fbox-head{position:fixed;width: 100%;height: 40px;background-color:#fff;text-align: center;color:#000;font:1.143rem/4.5rem "Microsoft Yahei";overflow: hidden;}
+	.blank-child{width: 100%;height: 40px;}
+	.goods3-fbox-wrap ul li{border-bottom:2px solid #f0f0f0;width: 364px;padding:16px 0 16px 12px;}
+	.goods3-fbox-wrap ul li span:first-child{display: inline-block;width: 44px;color:#898989;font:1rem/1.2143rem "Microsoft Yahei";}
+	.goods3-fbox-wrap ul li span:last-child{display: inline-block;margin-left:40px;color:#000;font:1rem/1.2143rem "Microsoft Yahei";}
+	.goods3-fbox-bottom{    z-index: 999;position:fixed;bottom:0;height: 48px;width: 100%;background-color: #dd2727;text-align: center;color:#fff;font:1.143rem/3.43rem "Microsoft Yahei";}
+	.goods3-sbox{display:none;position:fixed;height: 100%;width:100%;z-index:3;}
+	.warning{display:none;position:fixed;z-index: 200;-webkit-animation: warning 1.5s ;
+	-o-animation: warning 1.5s ;
+	animation: warning 1.5s ;}
+	@-webkit-keyframes warning{
+		0%{
+			top:37.48%;left:34.4%;
+			background:url(../img/goods/warning.png) no-repeat;background-size: 100%;
+			width: 31.2%;height: 14.5%;
+		}
+		80%{
+			top:37.48%;left:34.4%;
+			background:url(../img/goods/warning.png) no-repeat;background-size: 100%;
+			width: 31.2%;height: 14.5%;
+		}
+		100%{
+			top:37.48%;left:37.52%;
+			background:url(../img/goods/warning.png) no-repeat;background-size: 80%;
+			width: 31.2%;height: 14.5%;
+		}
+	}
+	@keyframes warning{
+		0%{
+			top:37.48%;left:34.4%;
+			background:url(../img/goods/warning.png) no-repeat;background-size: 100%;
+			width: 31.2%;height:14.5%;
+		}
+		80%{
+			top:37.48%;left:34.4%;
+			background:url(../img/goods/warning.png) no-repeat;background-size: 100%;
+			width: 31.2%;height:14.5%;
+		}
+		100%{
+			top:37.48%;left:37.52%;
+			background:url(../img/goods/warning.png) no-repeat;background-size: 80%;
+			width: 31.2%;height: 14.5%;
+		}
+	}
+	.goods3-sbg{position:fixed;bottom:0;height:100%;width: 100%;background-color: rgba(128,132,124,0.4);}/*height:155px;*/
+	.goods3-sbox-wrap{position:fixed;bottom:48px;height:72%;width:100%;background-color: white;}/*height:251px;*/
+	.goods3-box-close{position:absolute;background:url(../img/goods/叉.png) no-repeat;background-size:100%;width:5.6%;height:6%;top:8px;right:9px;}/*width: 21px;height: 21px;*/
+	.goods3-sbox-wrap img{position:absolute;display: block;width:30.4%;height: 24%;border:2px solid #fff;-o-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;left:10px;top:-22px;}/*width:114px;height: 114px;*/
+	.goods3-sbox-wrap div{color:#de2828;font-size:1.14286rem;margin:5.8594% 0 0 38.4%;}/*margin:30px 0 0 144px;  height:512px;*/
+	.goods3-sbox-wrap div i{display: inline-block;width:12px;height:12px;background: url(../img/icon/钱.png) no-repeat ;background-size:100%;}
+	.goods3-kucun,#goods3-selected{display: block;font:1rem/1.43rem;color:#000;margin-left:37.33333%;}/*margin-left:140px;*/
+	.goods3-kucun{margin-top:1.3672%;}/*margin-top:7px;*/
+	#goods3-selected{margin-top:1.3672%;}
+	.goods3-sbox-wrap p{margin:3% 0 0 2.66667%;width: 94.66667%;border-bottom: 2px solid #f1f1f1;}/*margin:15px 0 0 10px;355px*/
+	.goods3-sbox-wrap ul li{float:left;border-bottom: 2px solid #f1f1f1;width:94.66667%;margin:2.34375% 0 0 2.66667%;}/*margin:12px 0 0 10px;*/
+	.goods3-sbox-wrap ul li label{float:left;display: block;width:94.66667%;color:#000;font-size:1rem;}
+	.goods3-sbox-wrap ul li span{float:left;display:inline-block;margin:14px 12px 12px 0;color: #525252;font-size:0.857rem;text-align:center;background-color: #f5f5f5;padding:8px;border-radius: 8px;}
+	.goods3-sbox-wrap ul li .select-on{background-color: #dd2727;color:#fff;}
+	.goods3-sbox-wrap ul li .empty{background-color: #f5f5f5;color:#d1d1d1;}
+	.goods3-sbox-wrap ul li:last-child{width:94.66667%;height: 62px;margin-left: 10px;}
+	.goods3-sbox-wrap ul li p{float:left;display: block;width:200px;color:#000;font-size:1rem;border-bottom:none;margin:13px 0 0 0;}
+	.goods3-sbox-wrap ul li div{float: right;margin-top:-22px;}
+	.goods3-sbox-wrap ul li div input{float:left;display:inline-block;width: 38px;height: 30px;border-style:none;background-color: #f5f5f5;text-align: center;line-height: 30px;}
+	.goods3-sbox-wrap ul li div button{float: left;width: 38px;height: 30px;color:#666;background-color: #f5f5f5;border-style:none;margin:0 2px;}
+	.goods3-sbox-wrap ul li div .empty{background-color: #f5f5f5;color:#d1d1d1;}
+
+	.goods3-sbox-bottom1{position:fixed;display:inline-block;bottom:0;left:0;height: 48px;width: 50%;background-color: #ff9500;text-align: center;color:#fff;font:1.143rem/3.43rem "Microsoft Yahei";}
+	.goods3-sbox-bottom2{position:fixed;display:inline-block;bottom:0;right:0;height: 48px;width: 50%;background-color: #dd2727;text-align: center;color:#fff;font:1.143rem/3.43rem "Microsoft Yahei";}
+
+	/*.added-car{display:none;position: fixed;opacity:0.9;width: 220px;height: 96px;top:286px;left:78px;background-color:rgba(51,51,51,0.9);-o-border-radius: 8px;-webkit-border-radius: 8px;border-radius: 8px;z-index: 1000;}*/
+	.added-car{display:none;position: fixed;opacity:0.9;width:58.66667%;height:14.3928%;top:42.87856%;left:20.8%;background-color:rgba(51,51,51,0.9);-o-border-radius: 8px;-webkit-border-radius: 8px;border-radius: 8px;z-index: 1000;}
+	/*.added-car img{display: block;margin-top: 16px;margin-left: 96px;}*/
+	.added-car img{display: block;margin-top:2.3988%;margin-left: 39%;}
+	.added-car span{display: block;color: #fff;font-family: "Microsoft Yahei";text-align: center;margin-top: 1%}
+
+	/*.goods4-wrap{height: 277px;}*/
+	.goods4-tit{display: block;font-size: 1rem;margin:3.73333% 0 4.53333% 0;}/*margin: 14px 0 17px 0;*/
+	.goods4-lables{font-size:0.857rem;}
+	/*.goods4-lables li{display:inline-block;padding:8px 14px;margin:0 9px 12px 0;border-radius:8px;background-color: #ffecea;}*/
+	.goods4-lables li{display:inline-block;padding:2.3% 3.5%;margin:0 2.4% 3% 0;border-radius:8px;background-color: #ffecea;}
+	.goods4-lables li a{color:#313536;}
+	.goods4-lables .goods4-bad{background-color: #f5f5f5;}
+	/*.goods4-user div{margin-bottom: 12px;height: 22px;}*/
+	.goods4-user div{margin-bottom: 3.2%;}
+	.goods4-user div i{display: inline-block;margin-right:7px; margin-bottom: -5px;width:22px;height: 22px;background: url(../img/icon/goods用户.png) no-repeat;background-size: 100%; }
+	.goods4-user div span{display: inline-block;color: #959595;font: 0.857rem/1.57rem "Microsoft SimSun";}
+	/*.goods4-user p{float:left;height:26px;margin-bottom:9px;color:#5a5a5a;font-size:0.857rem;}*/
+	.goods4-user p{margin-bottom:9px;color:#5a5a5a;font-size:0.857rem;}
+	.goods4-usertext{display:block;color:#8d8d8d;font-size:0.857rem;margin-bottom:16px;}
+	.goods4-bottom{display: block;border: solid 1px #d1d1d1;border-radius: 5px;color:#a8a8a8;text-align:center;font-size:0.857rem;padding:6px 6px;margin:3.2% 35.73333%;}
+
+	.goods5{margin:0 auto;position: relative;}
+	/*.goods5-icon1{float:left;display: block;width:49px;height:49px;margin: 12px 0 0 10px;}*/
+	.goods5-icon1{display: block;width:49px;height:49px;margin: 3.2% 0 0 2.6667%;}
+	.goods5-tit{display:block;font:1.143rem "Microsoft Yahei";color: #353535;margin:-3.2143rem 0 0 20%;}
+	.goods5-con{margin-top: 11.2%;}
+	.goods5-con .cell{margin-right:1.6%;text-align: center;padding:1.6% 0;}
+	.goods5-con .cell div{padding: 1.3333% 0;color: #8d8d8d;font-size: 0.857rem;}
+	.goods5-con .cell div:first-child{font-size: 1rem;color:#333;}
+	.goods5-con1,.goods5-con2,.goods5-con3{border-right:solid 2px #f0f0f0;}
+	.goods5-con4{color: #8d8d8d;font-size: 0.857rem;}
+	.goods5-con4 span:first-child{font-size:1rem;color:#de2b2b;padding:0 2px 2px 9px;}
+	.goods5-con4 span:last-child{transform:scale(0.9);margin-right:10px;color:#ea8080;border:solid 1px #ea8080;-o-border-radius: 3px;-webkit-border-radius: 3px;border-radius: 3px;}
+	.goods5-con4 span{display: inline-block;}
+	.goods5-bottom1{display:block;background-color:#fff;text-align:center;border: solid 1px #d1d1d1;border-radius: 5px;color:#a8a8a8;font-size:0.857rem;padding:1.6% 1.6%;margin:2.6667% 3.2% 2.6667% 24%;}
+	.goods5-bottom2{display:block;background-color:#fff;text-align:center;border: solid 1px #d1d1d1;border-radius: 5px;color:#a8a8a8;font-size:0.857rem;padding:1.6% 1.6%;margin:2.6667% 24% 2.6667% 3.2%;}
+
+	.goods6{display:none;width:100%;height:60px;background-color:#f4f4f4;color:#999;text-align:center;color:#4a4a4a;font:1rem/3.786rem "Microsoft Yahei";}
+	.goods6 a{color:#999;}
+	
+	.part2{display: none;}
+
+	#return-top{position:fixed;display:none;bottom:60px;right:7px;background-color:rgba(240,240,240,0.5);width:46px;height: 46px;border:1px solid #acacac;border-radius: 50%;z-index:2;}
+	#return-top i{display: block;width: 16px;height: 16px;background: url(../img/evaluate/顶部箭头.png) no-repeat;background-size: 100%;margin: 8px 0 0 15px;}
+	#return-top span{display: block;color: #465660;font-size:0.7143rem;margin: 0 0 6px 12px;}
+
+	footer{background-color:#fff;position:fixed;width:100%;height:48px;bottom:0px;z-index:2;overflow: hidden;}
+	.wangWang,.business{float:left;display:inline-block;width:13.6%;height:48px;border-right:solid 1px #f0f0f0;color:#646464;text-align:center;font:normal 0.7143rem/1.643rem "Microsoft SimSun";}
+	.wangWang i{display:block;margin:12.5% 31.37255% 0 31.37255%;width:18px;height:18px;background: url(../img/icon/旺旺.png) no-repeat ;background-size:100%;}
+	.business i{display:block;margin:12.5% 31.37255% 0 31.37255%;width:18px;height:18px;background: url(../img/icon/店铺.png) no-repeat ;background-size:100%;}
+	.collect{float:left;width:13.6%;height:48px;color:#646464;text-align:center;font:normal 0.7143rem/1.643rem "Microsoft SimSun";}
+	.collect i{display:block;margin:12.5% 31.37255% 0 31.37255%;width:18px;height:18px;background: url(../img/icon/收藏.png) no-repeat ;background-size:100%;}
+	.collect .collected{display:block;margin:12.5% 31.37255% 0 31.37255%;width:18px;height:18px;background: url(../img/icon/收藏_on.png) no-repeat ;background-size:100%;}
+	.shopCar{float:left;width:29.2%;background-color: #ff9402;text-align:center;color:#fff;font: 1.143rem/3.43rem "Microsoft Yahei";}
+	.buy{float:left;width:29.3%;background-color:#dd2727;text-align:center;color:#fff;font: 1.143rem/3.43rem "Microsoft Yahei";}
+
+}

@@ -1,0 +1,62 @@
+@media screen and (min-width: 320px) and (max-width: 768px){
+	.det-hide{display:none;width:100%;height: 53px;background-color:#f4f4f4;color:#999;text-align:center;color:#4a4a4a;font:14px/53px "Microsoft Yahei";}
+	.det-hide a{color: #999;}
+	.det1,.det2,.det3,.det4{border-bottom: solid 10px #f4f4f4;}
+	.det1{height:3rem;border-top: solid 10px #f4f4f4;color: #1d313d;text-align:center;font: 1rem/3rem "Microsoft Yahei";}
+	
+	.det2-head,.det3-head,.det4-head,.det5-head{height:2.57rem;border-left:3px solid #db1919;color:#000;font:1.142857rem/2.57rem "Microsoft SimSun";font-weight: 600;}
+	.det2-head span,.det3-head span,.det4-head span,.det5-head span{display: block;margin-left:3.2%;}
+	/*.det2{height: 224px;}*/
+	.det2 img{display: block;width: 91.73333%;margin-left:8.266667%;}
+
+	/*.det3{height: 1222px;}*/
+	/*.det3-p1,.det3-p2,.det3-p3{width:33.066667%;}/*width:124px;height: 188px;*/
+	.det3-con{display:block;width:91%;height:8.7857rem;background: url(../img/details/pic2.png) no-repeat;}/*height:123px;*/
+	.d3c2{background-position: 50% 0;}
+	.d3c3{background-position: 100% 0;}
+	.det3-p1 span,.det3-p2 span,.det3-p3 span{display: block;margin-top:10%;margin-left:6%;color: #000;font:0.857em/0.857em "Microsoft SimSun";font-weight: 400;}
+	.det3-p1 div,.det3-p2 div,.det3-p3 div{margin:10% 0 5% 6%;color:#dc1e1e;font-size:1rem;}
+	.det3-p1 div i,.det3-p2 div i,.det3-p3 div i{display:inline-block;width:8px; height:8px;background: url(../img/icon/钱.png) no-repeat;background-size: 100%;}
+	.det3-pictures{border-top: 11px solid #f4f4f4;}
+	.det3-pic1{display:block;width: 100%;}
+	.det3-pic2{display: block;width: 100%;}
+	
+	/*.det4{height: 270px;}*/
+	.det4-text{width:100%;padding-left:4.53333%;background-color: #f9f9f9;border-bottom: 9px solid #f4f4f4;padding:5% 5%;}
+	/*.det4-text dt{display:block;color: #8f8f8f;font-size: 1rem;width:15.466667%;}
+	.det4-text dd{width: 53.3333%;color:#000;font-size:1rem;}*/
+	.det4-text-l{width: 19%;color: #8f8f8f;font-size: 1rem;}
+	.det4-text-l span{display: block;margin-bottom:17%;}
+	.det4-text-r{width:53.3333%;margin-left:6.93333%;}
+	.det4-text-r span{display:block;color:#000;font-size: 1rem;}
+	.det4-text-r span:nth-child(1){margin-bottom:5%;}
+	.det4-text-r span:nth-child(2){margin-bottom:5%;}
+	.det4-text-r span:nth-child(3){margin-bottom:4%;}
+	.det4-text-r i{display:block;background: url(../img/details/pic4.png) no-repeat;width: 86px;height: 86px;}
+	.det4 img{display: block;}
+	.det4-icon1{width: 100%;}
+	.det4-icon2{width: 100%;}
+	.det4-icon3{width: 100%;}
+	.det4-icon4{width: 100%;}
+	.det4-icon5{width: 100%;}
+	.det4-icon6{width: 100%;}
+	.det4-icon7{width: 100%;}
+	.det4-icon8{width: 100%;}
+	.det4-icon9{width: 100%;}
+
+	.det5-p1,.det5-p2,.det5-p3,.det5-p4{width: 49.6%;position: relative;border-bottom:3px solid #eee;}
+	.det5-p1,.det5-p3{border-right: 2px solid #eee;}
+	.det5-con{display:inline-block;margin-left: 10px;width:90%;height:13.2857rem;background: url(../img/details/pic雪碧图.png) no-repeat;}
+	.d5c2{background-position: -186px 0;}
+	.d5c3{background-position: -372px 0;}
+	.d5c4{background-position: -558px 0;}
+	.det5-p1 div i,.det5-p2 div i,.det5-p3 div i,.det5-p4 div i{display:inline-block;width:8px; height:8px;background: url(../img/icon/钱.png) no-repeat;background-size: 100%;}
+	.det5-txt{display:inline-block;margin:1.6% 0 0 4.2%;width:96%;font:0.857rem/1.07143rem "Microsoft Yahei";font-weight:500;color:#000;}
+	.det5-p1 div,.det5-p2 div,.det5-p3 div,.det5-p4 div{margin-left: 3.2%;color:#dc1e1e;font-size:1rem;margin-top: 3.733333%;}
+	.det5-p1 div span,.det5-p2 div span,.det5-p3 div span,.det5-p4 div span{position:absolute;bottom:0.42857rem;right:5.13333%;display:inline-block;color:#8d8d8d;font-size:0.7143rem;}
+	.det5-p5{margin-top:2px;padding:4.8% 0;width:100%;text-align:center;border-top: 1px solid #e1e1e1;background-color: #eeeeee;}
+	.det5-p5 span{display: inline-block;color:#4f4f4f;font-size:1rem;}
+	.det5-p5 span:nth-child(1),.det5-p5 span:nth-child(3){color:#e1e1e1;}
+	/*.blank-bottom2{width: 100%;padding:5.8% 0;background-color:#fff;}*/
+
+}
